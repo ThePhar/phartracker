@@ -97,3 +97,6 @@ dist/
 # Temporary folders
 tmp/
 temp/
+
+# Test example files
+*.i.*
