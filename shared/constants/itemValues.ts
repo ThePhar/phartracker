@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
-// TODO: Remove eslint-disable comment.
-enum Items {
+enum ItemValues {
   DekuSticks = 0x0,
   DekuNuts,
   Bombs,
@@ -60,4 +59,4 @@ enum Items {
   Empty = 0xFF
 }
 
-export default Items;
+export default ItemValues;
