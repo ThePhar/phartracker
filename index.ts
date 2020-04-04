@@ -1,1 +1,2 @@
-// Empty file
+// Start the application.
+require('./server/server');
