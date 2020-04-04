@@ -1,6 +1,6 @@
 # PharTracker
 
-An item tracker for **Legend of Zelda: Ocarina of Time Randomizer**, inspired by **EmoTracker**.
+An item tracker for **The Legend of Zelda: Ocarina of Time Randomizer**, inspired by **EmoTracker**.
 
 ( This is where an image will go when I have something to show. Just use your imagination. 😉 )
 
