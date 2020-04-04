@@ -123,7 +123,7 @@ end
 
 while true do
     if event_update() then
-        send_data(jsonify_save_data(sram), "data")
+        send_data(jsonify_save_data(sram), "emu")
     end
 
     emu.frameadvance()
