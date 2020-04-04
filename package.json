@@ -1,0 +1,8 @@
+{
+  "name": "phartracker",
+  "version": "0.1.0",
+  "description": "An item tracker inspired by EmoTracker.",
+  "author": "Zach Parks <zach@alliware.com> (https://zacheryparks.com/)",
+  "license": "MIT",
+  "private": true
+}
