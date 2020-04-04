@@ -1,4 +1,4 @@
-# PharTracker ![](https://img.shields.io/github/package-json/v/thephar/phartracker) ![](https://api.travis-ci.com/ThePhar/phartracker.svg?branch=master&status=unknown) ![](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_unknown.svg)
+# PharTracker ![](https://img.shields.io/github/package-json/v/thephar/phartracker) [![Build Status](https://travis-ci.com/ThePhar/phartracker.svg?branch=master)](https://travis-ci.com/ThePhar/phartracker) [![Coverage Status](https://coveralls.io/repos/github/ThePhar/phartracker/badge.svg?branch=master)](https://coveralls.io/github/ThePhar/phartracker?branch=master)
 
 An item tracker for **The Legend of Zelda: Ocarina of Time Randomizer**, inspired by **EmoTracker**.
 
