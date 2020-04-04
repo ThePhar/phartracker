@@ -7,9 +7,13 @@
   "private": true,
   "scripts": {
     "start": "nodemon --exec ts-node .",
-    "test": "jest",
-    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
-    "precommit": "npm run lint && npm run test"
+    "test": "jest --passWithNoTests",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx --max-warnings 0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test && npm run lint"
+    }
   },
   "nodemonConfig": {
     "ext": "js,ts,jsx,tsx,json"
