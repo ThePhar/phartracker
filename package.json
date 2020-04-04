@@ -7,7 +7,9 @@
   "private": true,
   "scripts": {
     "start": "nodemon --exec ts-node .",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "precommit": "npm run lint && npm run test"
   },
   "nodemonConfig": {
     "ext": "js,ts,jsx,tsx,json"
@@ -29,6 +31,7 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.8.2",
+    "husky": "^4.2.3",
     "jest": "^25.2.7",
     "nodemon": "^2.0.2",
     "ts-jest": "^25.3.1",
