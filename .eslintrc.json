@@ -27,7 +27,8 @@
             "ts": "never",
             "tsx": "never"
         }],
-        "lines-between-class-members": "off"
+        "lines-between-class-members": "off",
+        "no-unused-vars": "off"
     },
     "settings": {
         "import/resolver": {

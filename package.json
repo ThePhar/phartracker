@@ -1,6 +1,6 @@
 {
   "name": "phartracker",
-  "version": "0.1.0",
+  "version": "0.1.0-alpha",
   "description": "An item tracker inspired by EmoTracker.",
   "author": "Zach Parks <zach@alliware.com> (https://zacheryparks.com/)",
   "license": "MIT",
@@ -41,6 +41,7 @@
     "@types/supertest": "^2.0.8",
     "@typescript-eslint/eslint-plugin": "^2.26.0",
     "@typescript-eslint/parser": "^2.26.0",
+    "chalk": "^4.0.0",
     "coveralls": "^3.0.11",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
@@ -55,6 +56,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "redux": "^4.0.5"
   }
 }
